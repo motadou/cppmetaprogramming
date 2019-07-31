@@ -1,0 +1,13 @@
+# Boost Utility Library test Jamfile
+
+subproject libs/utility/test ;
+
+# bring in rules for testing
+import testing ;
+
+{
+    test-suite "named_params"
+      :  [ run named_params_test.cpp ]
+         [ run named_params_sfinae.cpp ]
+       ;
+}

@@ -1,0 +1,5 @@
+[Autorun]
+shellexecute=index.html
+
+[Autorun.x86]
+shellexecute=index.html
